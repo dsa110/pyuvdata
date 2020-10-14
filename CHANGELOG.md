@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Added handling for `object_name` and `extra_keywords` to `sum_vis` and `diff_vis` methods and added the `override_params` option to override other parameters.
 
+### Fixed
+- Fixed an indexing error bug in `compress_by_redundancy` when using `method='average'`.
+
 ## [2.1.2] - 2020-10-07
 
 ### Added
